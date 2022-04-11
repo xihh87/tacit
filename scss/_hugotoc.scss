@@ -1,0 +1,40 @@
+nav#TableOfContents {
+  display: block;
+  background: transparent;
+
+  ul {
+    display: list-item;
+    text-align: left;
+    font-size: 95%;
+
+    &:first-child {
+      margin-left: .5 * $spacing
+    }
+    &:last-child {
+      margin-right: .5 * $spacing
+    }
+  }
+
+  li {
+    display: inherit;
+    color: $black;
+
+    &:first-child {
+      margin-left: .5 * $spacing
+    }
+    &:last-child {
+      margin-right: .5 * $spacing
+    }
+
+    a {
+      color: inherit;
+      text-align: left;
+      padding: 0;
+
+      &:hover {
+        color: $gray;
+        background-color: transparent;
+      }
+    }
+  }
+}
