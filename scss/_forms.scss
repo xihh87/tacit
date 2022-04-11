@@ -22,6 +22,8 @@
 
 @import 'defs';
 
+form {
+
 fieldset {
   label,
   legend {
@@ -157,4 +159,6 @@ input[type="radio"] {
 
 select[multiple] {
   min-width: 15 * $spacing;
+}
+
 }
